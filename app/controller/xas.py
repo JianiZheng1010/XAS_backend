@@ -273,7 +273,7 @@ def download_report():
 
 @report_route.route('/delete', methods=['DELETE'])
 def delete_report():
-    import pdb;pdb.set_trace()
+
     user_name = request.args.get('user_name')
     if not valid_login(user_name, request.headers.get('Authorization')):
         return make_response(401, '', 'user not login')
