@@ -1,5 +1,5 @@
 # XAS-backend
-This is created by Jiani Zheng(ml208jz@leeds.ac.uk) for her MSc project.
+This is created by Jiani Zheng (ml208jz@leeds.ac.uk) for her MSc project.
 
 XAS-backend is developed in python with Flask and uses MySQL for database.
 
